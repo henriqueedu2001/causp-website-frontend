@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Coletivo Autista da USP - Website Frontend
+Esse repositório contém o frontend do website do [Coletivo Autista da USP](https://linktr.ee/cautistausp), criado com [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/) e [Vite](https://vitejs.dev/).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="public/causp_fox.jpg" alt="Logotipo do Coletivo Autista da USP (CAUSP)" style="width: 300px;" />
+</div>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Quem somos?
+O Coletivo Autista da USP (CAUSP) é uma iniciativa dedicada a esta parte da comunidade USP. Nossos objetivos são discutir o Transtorno do Espectro Autista (TEA), contribuir para a expansão de pautas relacionadas ao autismo, e criar um local seguro para troca de experiências e apoio mútuo entre membros da comunidade autista.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Siga-nos!
 
-- Configure the top-level `parserOptions` property like this:
+[instagram](https://www.instagram.com/coletivoautista/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+[facebook](https://www.facebook.com/coletivoautista/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[linktree](https://linktr.ee/cautistausp)
+
+[contato](luansouzasilva@usp.br)
