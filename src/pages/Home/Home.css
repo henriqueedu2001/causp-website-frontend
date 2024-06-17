@@ -1,0 +1,31 @@
+.presentation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+}
+
+.text-container {
+    width: 50vw;
+    height: 90vh;
+    padding: 20px;
+}
+
+.logo-container img {
+    height: 80%;
+}
+
+.text-container h1 {
+    font-size: 72pt;
+}
+
+.text-container h2 {
+    font-size: 18pt;
+}
