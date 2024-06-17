@@ -1,0 +1,39 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container {
+    margin: 0;
+    padding: 0;
+    background-color: #24005f;
+    width: 100vw;
+    height: 10vh;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw/6);
+    height: 10vh;
+    
+}
+
+.navbar li a {
+    font-size: 14pt;
+    color: #FFFFFF;
+}
+
+.navbar li a:hover {
+    color: #FFFFFF;
+}
