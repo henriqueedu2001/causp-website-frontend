@@ -2,7 +2,7 @@
 Esse repositório contém o frontend do website do [Coletivo Autista da USP](https://linktr.ee/cautistausp), criado com [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/) e [Vite](https://vitejs.dev/).
 
 <p align="center">
-  <img src="public/causp_fox.jpg" alt="Logotipo do Coletivo Autista da USP (CAUSP)" style="width: 300px;" />
+  <img src="public/imgs/LOGO SEM FUNDO.png" alt="Logotipo do Coletivo Autista da USP (CAUSP)" style="width: 450px;" />
 </p>
 
 ## Quem somos?
