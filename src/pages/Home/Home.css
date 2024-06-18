@@ -13,6 +13,9 @@
 }
 
 .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50vw;
     height: 90vh;
 }
@@ -21,10 +24,22 @@
     height: 80%;
 }
 
+.text-container .text-div {
+    margin: 10px;
+    width: 80%;
+}
+
 .text-container h1 {
     font-size: 72pt;
+    font-weight: 700;
 }
 
 .text-container h2 {
+    font-size: 32pt;
+    font-weight: 500;
+}
+
+.text-container p {
     font-size: 18pt;
+    font-weight: 400;
 }

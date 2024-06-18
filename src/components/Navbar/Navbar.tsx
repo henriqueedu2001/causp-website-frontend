@@ -7,12 +7,12 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <ul>
-          <li><a>Quem Somos?</a></li>
-          <li><a>Nossa História</a></li>
-          <li><a>Descubra</a></li>
-          <li><a>Cultura</a></li>
-          <li><a>Participe</a></li>
-          <li><a>Siga-nos!</a></li>
+          <li><a>QUEM SOMOS?</a></li>
+          <li><a>NOSSA HISTÓRIA</a></li>
+          <li><a>DESCUBRA</a></li>
+          <li><a>CULTURA</a></li>
+          <li><a>PARTICIPE</a></li>
+          <li><a>SIGA-NOS!</a></li>
         </ul>
       </div>
     </nav>

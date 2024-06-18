@@ -23,9 +23,9 @@ class Presentation extends React.Component {
             <img src={CAUSP_LOGO}></img>
           </div>
           <div className='text-container'>
-            <h1>Coletivo Autista<br/>da USP</h1>
-            <h2>Um espaço de conexão de pessoas autistas da comunidade USP!</h2>
-            <p>Nosso coletivo é um grupo de pessoas autistas que procuram criar amizades e compartilhar experiências e ao mesmo tempo ampliar as medidas de inclusão e adaptação no ambiente acadêmico.</p>
+            <div className='text-div'><h1>Coletivo Autista<br/>da USP (CAUSP)</h1></div>
+            <div className='text-div'><h2>Um espaço de conexão de pessoas autistas da comunidade USP!</h2></div>
+            <div className='text-div'><p>Nosso coletivo é um grupo de pessoas autistas que procuram criar amizades e compartilhar experiências e ao mesmo tempo ampliar as medidas de inclusão e adaptação no ambiente acadêmico.</p></div>
           </div>
         </div>
       </section>

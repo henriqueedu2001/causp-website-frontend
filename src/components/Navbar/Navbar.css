@@ -30,10 +30,13 @@
 }
 
 .navbar li a {
-    font-size: 14pt;
+    font-size: 16pt;
+    font-weight: 400;
     color: #FFFFFF;
 }
 
 .navbar li a:hover {
+    text-decoration: underline;
+    font-weight: 600;
     color: #FFFFFF;
 }
