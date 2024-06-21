@@ -2,6 +2,7 @@ import React from 'react'
 import CAUSP_LOGO from './../../assets/imgs/LOGO SEM FUNDO.png'
 import colorful_infinity from './../../assets/imgs/colorful_infinity.png'
 import Header from './../../components/Navbar/Navbar.tsx'
+import Footer from '../../components/Footer/Footer.tsx'
 
 import './Home.css'
 import './mobile.css'
@@ -16,6 +17,7 @@ function Home() {
       <HistorySection/>
       <DiscoverSection/>
       <ContactsSection/>
+      <Footer/>
     </>
   )
 }
