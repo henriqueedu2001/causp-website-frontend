@@ -4,6 +4,7 @@ import colorful_infinity from './../../assets/imgs/colorful_infinity.png'
 import Header from './../../components/Navbar/Navbar.tsx'
 
 import './Home.css'
+import './mobile.css'
 
 function Home() {
 
