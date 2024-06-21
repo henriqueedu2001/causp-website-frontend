@@ -82,7 +82,14 @@ class HistorySection extends React.Component {
         <div className='section-container'>
           <h1 className='section-title'>Nossa História</h1>
           <hr/>
-          <p></p>
+          <p>O Coletivo Autista da USP (CAUSP) foi fundado em 12 de maio de 2021 por Giulia Jardim 
+            Martinovic e é o primeiro coletivo autista do Brasil!</p>
+          <p>Seu objetivo é conscientizar a comunidade acadêmica, promovendo a permanência de autistas
+            no Ensino Superior e a defesa de cotas para autistas em todas as universidade brasileiras.
+            CAUSP foi logo reconhecido após a criação com o Prêmio Diversidade da Universidade de São 
+            Paulo em junho de 2021, na categoria Acesso, inclusão e permanência de grupos minoritários 
+            da USP. A premiação é concedida a iniciativas de incentivo à diversidade, e é realizada em 
+            junho, para marcar o mês do Orgulho LGBTQIA+.</p>
         </div>
       </section>
     )
