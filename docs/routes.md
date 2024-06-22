@@ -1,0 +1,15 @@
+# Rotas básicas
+- **/**:
+- **/home**:
+- **/sobrenos**: 
+- **/historia**: 
+- **/descubra**: 
+- **/cultura**: 
+- **/artigos**: 
+- **/contatos**: 
+- **/membros**: 
+- **/participe**: 
+- **/regimento**: 
+- **/pesquisas**: 
+- **/identidadevisual**: 
+- **/downloads**: 
