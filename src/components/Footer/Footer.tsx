@@ -1,10 +1,10 @@
 import React from 'react'
-import './Footer.css'
+import { Link } from 'react-router-dom'
 
+import './Footer.css'
 import CAUSP_LOGO from './../../assets/imgs/LOGO SEM FUNDO.png'
 
 function Footer() {
-
   return (
     <footer>
       <div className='footer-container'>
@@ -25,40 +25,44 @@ class FooterLinks extends React.Component {
     return (
       <div className='footer-columns'>
         <div className='footer-column'>
-          <h3 className='column-title'>Mapa do site</h3>
+          <h3 className='column-title'>Mapa do Site</h3>
           <hr></hr>
           <ul>
-            <li><a>Quem somos?</a></li>
-            <li><a>Nossa História</a></li>
-            <li><a>Descubra</a></li>
-            <li><a>Cultura</a></li>
-            <li><a>Participe</a></li>
+            <li><Link to='/'>Início</Link></li>
+            <li><Link to='/sobrenos'>Quem Somos?</Link></li>
+            <li><Link to='/historia'>Nossa História</Link></li>
+            <li><Link to='/descubra'>Descubra</Link></li>
           </ul>
         </div>
         <div className='footer-column'>
-          <h3 className='column-title'>Descubra!</h3>
+          <h3 className='column-title'>Conteúdo</h3>
           <hr></hr>
           <ul>
-            <li><a>Cartilhas</a></li>
-            <li><a>Cultura</a></li>
+            <li><Link to='/artigos'>Artigos</Link></li>
+            <li><Link to='/pesquisas'>Pesquisas</Link></li>
+            <li><Link to='/pesquisas'>Censos</Link></li>
+            <li><Link to='/cultura'>Cultura</Link></li>
           </ul>
         </div>
         <div className='footer-column'>
-          <h3 className='column-title'>Redes Sociais</h3>
+          <h3 className='column-title'>Institucional</h3>
           <hr></hr>
           <ul>
-            <li><a>Instagram</a></li>
-            <li><a>Facebook</a></li>
-            <li><a>Discord</a></li>
+            <li><Link to='/membros'>Membros</Link></li>
+            <li><Link to='/regimento'>Regimento</Link></li>
+            <li><Link to='/participe'>Participe</Link></li>
+            <li><Link to='/visual'>Identidade Visual</Link></li>
           </ul>
         </div>
         <div className='footer-column'>
-          <h3 className='column-title'>Siga-nos!</h3>
+          <h3 className='column-title'>Contatos</h3>
           <hr></hr>
           <ul>
-            <li><a>Instagram</a></li>
-            <li><a>Facebook</a></li>
-            <li><a>Discord</a></li>
+            <li><Link to='https://www.instagram.com/coletivoautista/'>Instagram</Link></li>
+            <li><Link to='https://discord.com/invite/6ZHU5Ta92y'>Discord</Link></li>
+            <li><Link to='https://www.facebook.com/coletivoautista/'>Facebook</Link></li>
+            <li><Link to='https://linktr.ee/cautistausp'>Link Tree</Link></li>
+            <li><Link to='https://github.com/henriqueedu2001/causp-website-frontend'>Github do Site</Link></li>
           </ul>
         </div>
       </div>
