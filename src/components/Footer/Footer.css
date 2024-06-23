@@ -1,14 +1,14 @@
 .footer-container {
     color: #FFFFFF;
     width: 100vw;
-    background-color: #24005f;
+    background: linear-gradient(90deg, #24005f 0%, #1a043d 100%);
 }
 
 .footer-content {
     width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: space-evenly;
 }
 
 .footer-img-container {
@@ -53,11 +53,19 @@
     margin-top: 10px;
 }
 
+.footer-column a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
 .footer-column a:hover {
+    color: #FFFFFF;
     font-weight: 500;
 }
 
 .footer-container .copyright {
+    background-color: #1a043d;
     height: 5vh;
     display: flex;
     justify-content: center;
