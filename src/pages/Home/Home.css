@@ -27,7 +27,6 @@
     }
 
     .text-container .text-div {
-        margin-bottom: 15px;
         width: 80%;
     }
 
@@ -49,7 +48,6 @@
     .section-container {
         width: 80vw;
         margin-top: 20px;
-        margin-bottom: 20px;
         padding-left: 10vw;
         padding-right: 10vw;
         display: flex;
