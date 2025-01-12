@@ -1,6 +1,6 @@
 import React from 'react'
 import CAUSP_LOGO from './../../assets/imgs/LOGO SEM FUNDO.png'
-import colorful_infinity from './../../assets/imgs/colorful_infinity.png'
+// import colorful_infinity from './../../assets/imgs/colorful_infinity.png'
 import Header from './../../components/Navbar/Navbar.tsx'
 import Footer from '../../components/Footer/Footer.tsx'
 import './Home.css'
@@ -86,32 +86,6 @@ class HistorySection extends React.Component {
             Paulo em junho de 2021, na categoria Acesso, inclusão e permanência de grupos minoritários
             da USP. A premiação é concedida a iniciativas de incentivo à diversidade, e é realizada em
             junho, para marcar o mês do Orgulho LGBTQIA+.</p>
-        </div>
-      </section>
-    )
-  }
-}
-
-class DiscoverSection extends React.Component {
-  render() {
-    return (
-      <section>
-        <div className='section-container'>
-          <h1 className='section-title'>Descubra!</h1>
-          <hr />
-        </div>
-      </section>
-    )
-  }
-}
-
-class ContactsSection extends React.Component {
-  render() {
-    return (
-      <section>
-        <div className='section-container'>
-          <h1 className='section-title'>Contate-nos!</h1>
-          <hr />
         </div>
       </section>
     )
