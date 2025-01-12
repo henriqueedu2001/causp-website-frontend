@@ -13,7 +13,7 @@ function Footer() {
           <FooterLinks />
         </div>
         <div className='copyright'>
-          <p>&copy; 2024 Coletivo Autista da USP - CAUSP. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Coletivo Autista da USP - CAUSP. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
@@ -46,7 +46,7 @@ class ImageContainer extends React.Component {
 function SiteMap() {
   return (
     <div className='footer-column'>
-      <h3 className='column-title'>Conteúdo</h3>
+      <h3 className='column-title'>Mapa do Site</h3>
       <hr></hr>
       <ul className='links-list'>
         <li><Link to='/'>Início</Link></li>
