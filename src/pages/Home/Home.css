@@ -31,7 +31,7 @@
     }
 
     .presentation-container .text-container h1 {
-        font-size: 4rem;
+        font-size: 4.5rem;
         font-weight: 700;
     }
     
@@ -78,18 +78,20 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: start;
+        align-items: center;
         width: 100%;
     }
 
     .presentation-container .text-container h1 {
+        text-align: center;
         font-size: 3.5rem;
-        font-weight: 700;
+        font-weight: 600;
     }
     
     .presentation-container .text-container h2 {
+        text-align: center;
         font-size: 1.7rem;
-        font-weight: 500;
+        font-weight: 300;
     }
     
     .presentation-container .text-container p {
