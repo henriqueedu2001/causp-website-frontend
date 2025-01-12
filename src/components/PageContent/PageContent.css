@@ -1,0 +1,32 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-container {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-container .section-title {
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.section-container p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+/* @media (min-width: 600px) {
+
+}
+
+@media (max-width: 600px) {
+
+} */

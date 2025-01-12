@@ -3,24 +3,30 @@ import CAUSP_LOGO from './../../assets/imgs/LOGO SEM FUNDO.png'
 import colorful_infinity from './../../assets/imgs/colorful_infinity.png'
 import Header from './../../components/Navbar/Navbar.tsx'
 import Footer from '../../components/Footer/Footer.tsx'
-
-import './Home.css'
-import './mobile.css'
+// import './Home.css'
+// import './mobile.css'
+import '../../components/PageContent/PageContent.css'
 
 function Home() {
 
   return (
     <>
-      <Header/>
-      <Presentation/>
-      <AboutUsSection/>
-      <HistorySection/>
-      <DiscoverSection/>
-      <ContactsSection/>
-      <Footer/>
+      <Header />
+      {PageContent()}
+      <Footer />
     </>
   )
 }
+
+function PageContent() {
+  return (
+    <div className='page-content'>
+      <AboutUsSection/>
+      <HistorySection/>
+    </div>
+  )
+}
+
 
 class Presentation extends React.Component {
   render() {
@@ -31,7 +37,7 @@ class Presentation extends React.Component {
             <img src={CAUSP_LOGO}></img>
           </div>
           <div className='text-container'>
-            <div className='text-div'><h1>Coletivo Autista<br/>da USP (CAUSP)</h1></div>
+            <div className='text-div'><h1>Coletivo Autista<br />da USP (CAUSP)</h1></div>
             <div className='text-div'><h2>Um espaço de conexão de pessoas autistas da comunidade USP!</h2></div>
             <div className='text-div'><p>Nosso coletivo é um grupo de pessoas autistas que procuram criar amizades e compartilhar experiências e ao mesmo tempo ampliar as medidas de inclusão e adaptação no ambiente acadêmico.</p></div>
           </div>
@@ -46,31 +52,18 @@ class AboutUsSection extends React.Component {
     return (
       <section>
         <div className='section-container'>
-          <h1 className='section-title'>Quem Somos?</h1>
-          <hr/>
-          <p>
+          <h2 className='section-title'>Quem Somos?</h2>
+          <hr />
+          <p>Você sabia que existem vários alunos e funcionários com o transtorno do espectro
+            autista (TEA) na Universidade de São Paulo (USP)?
+            Apesar de serem muitos, a comunidade autista da USP enfrenta problemas de
+            invisibilidade, acessibilidade e discriminação. A universidade oferecer programas
+            de inclusão, mas ainda temos muito a fazer para os alunos e funcionários com TEA.
+            Por isso, é essencial ter grupos de apoio e suporte a esta população.
           </p>
-          <div className='image-text-container'>
-            <div className='side-text'>
-              <p>Você sabia que existem vários alunos e funcionários com o transtorno do espectro 
-                autista (TEA) na Universidade de São Paulo (USP)?
-                Apesar de serem muitos, a comunidade autista da USP enfrenta problemas de 
-                invisibilidade, acessibilidade e discriminação. A universidade oferecer programas
-                de inclusão, mas ainda temos muito a fazer para os alunos e funcionários com TEA.
-                Por isso, é essencial ter grupos de apoio e suporte a esta população.
-              </p>
-            </div>
-            <div className='colorful-infinity'>
-              <figure>
-                <img src={colorful_infinity}></img>
-                <figcaption>O símbolo de infinito colorido representa a neurodiversidade.
-                  O movimento neurodiverso luta pela aceitação e inclusão de pessoas neurodiversas.</figcaption>
-              </figure>
-            </div>
-          </div>
-          <p><b>Coletivo Autista da USP (CAUSP)</b> é uma iniciativa dedicada a esta parte da 
-            comunidade USP. Nossos objetivos são discutir o TEA, contribuir para a expansão de 
-            pautas relacionadas ao autismo, e criar um local seguro para troca de experiências 
+          <p><b>Coletivo Autista da USP (CAUSP)</b> é uma iniciativa dedicada a esta parte da
+            comunidade USP. Nossos objetivos são discutir o TEA, contribuir para a expansão de
+            pautas relacionadas ao autismo, e criar um local seguro para troca de experiências
             e apoio mútuo entre membros da comunidade autista.</p>
         </div>
       </section>
@@ -83,15 +76,15 @@ class HistorySection extends React.Component {
     return (
       <section>
         <div className='section-container'>
-          <h1 className='section-title'>Nossa História</h1>
-          <hr/>
-          <p>O Coletivo Autista da USP (CAUSP) foi fundado em 12 de maio de 2021 por Giulia Jardim 
-            Martinovic e é o primeiro coletivo autista do Brasil!</p>
+          <h2 className='section-title'>Nossa História</h2>
+          <hr />
+          <p>O Coletivo Autista da USP (CAUSP) foi fundado em 12 de maio de 2021 por Giulia Jardim
+            Martinovic, sendo o primeiro coletivo autista do Brasil!</p>
           <p>Seu objetivo é conscientizar a comunidade acadêmica, promovendo a permanência de autistas
             no Ensino Superior e a defesa de cotas para autistas em todas as universidade brasileiras.
-            CAUSP foi logo reconhecido após a criação com o Prêmio Diversidade da Universidade de São 
-            Paulo em junho de 2021, na categoria Acesso, inclusão e permanência de grupos minoritários 
-            da USP. A premiação é concedida a iniciativas de incentivo à diversidade, e é realizada em 
+            CAUSP foi logo reconhecido após a criação com o Prêmio Diversidade da Universidade de São
+            Paulo em junho de 2021, na categoria Acesso, inclusão e permanência de grupos minoritários
+            da USP. A premiação é concedida a iniciativas de incentivo à diversidade, e é realizada em
             junho, para marcar o mês do Orgulho LGBTQIA+.</p>
         </div>
       </section>
@@ -105,7 +98,7 @@ class DiscoverSection extends React.Component {
       <section>
         <div className='section-container'>
           <h1 className='section-title'>Descubra!</h1>
-          <hr/>
+          <hr />
         </div>
       </section>
     )
@@ -118,7 +111,7 @@ class ContactsSection extends React.Component {
       <section>
         <div className='section-container'>
           <h1 className='section-title'>Contate-nos!</h1>
-          <hr/>
+          <hr />
         </div>
       </section>
     )
