@@ -3,8 +3,7 @@ import CAUSP_LOGO from './../../assets/imgs/LOGO SEM FUNDO.png'
 import colorful_infinity from './../../assets/imgs/colorful_infinity.png'
 import Header from './../../components/Navbar/Navbar.tsx'
 import Footer from '../../components/Footer/Footer.tsx'
-// import './Home.css'
-// import './mobile.css'
+import './Home.css'
 import '../../components/PageContent/PageContent.css'
 
 function Home() {
@@ -21,6 +20,7 @@ function Home() {
 function PageContent() {
   return (
     <div className='page-content'>
+      <Presentation/>
       <AboutUsSection/>
       <HistorySection/>
     </div>
